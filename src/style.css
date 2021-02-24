@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rosario:wght@300;400&display=swap');
+
+body {
+  background-color: lightsalmon
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+.rock {
+  font-family: 'Rock Salt';
+}
+
+.rosario {
+  font-family: 'Rosario';
+}
+
+.roboto {
+  font-family: 'Roboto';
+}
+
+body {
+  margin: 0;
+}
+
+main {
+  max-width: 930px;
+  padding: 0 30px 0;
+  margin: auto;
+}
+
+.card2 {
+  width: 200px;
+  /* padding: 10px; */
+  margin-left: 20px;
+  border: 1px solid #dedede;
+  border-radius: 15px;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.13);
+  text-align: center;
+  background-color: white;
+}
+
+.card2 img {
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+}
+
+.card2 p {
+  margin: 0;
+}
+
+.card2 h2.price {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  color: #6ebaba
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.flex div.card {
+  /* min-width: 300px;
+  max-width: 200px; */
+  width: 300px;
+}
+
+.flex div.card div {
+  padding: 25px;
+}
+
+.cont-description {
+  margin-left: 30px;
+  flex: 1 1 300px;
+}
+
+.details {
+  padding: 10px;
+  padding-bottom: 20px;
+}
+
+.cont-description {
+  margin-left: 25px;
+}
+
+button {
+  border-radius: 10px;
+  padding: 10px;
+  background-color: rgb(125, 206, 206);
+  border: none;
+  margin-top: 20px;
+}
+
+label, iput {
+  display: block;
+}
+
+footer {
+  background-color: #ffcb91
+}
+
+.cont-footer {
+  max-width: 900px;
+  margin: auto;
+}
+
+footer div.cont-footer {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+  margin-top: 60px;
+  padding-bottom: 15px;
+  position: relative
+}
+
+footer div.cont-footer img {
+  width: 20px;
+  margin-right: 5px;
+}
+
+footer div.cont-footer img:nth-child(-n+2) {
+  width: 26px;
+}

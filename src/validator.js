@@ -1,3 +1,4 @@
+
 const validator = {
   isValid: function (creditCardNumber) {
     // Convertir creditCardNumber a un array
