@@ -2,64 +2,75 @@
 <html>
 
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width">
-	<title>A.Aprender</title>
-	<link href="style.css" rel="stylesheet" type="text/css" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>A.Aprender</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
   <header>
-    <h1 style="color:black;" class="rock">
-      <!-- <font face="Comic Sans">A.APRENDER</font> -->
-      <font size=7>A.Aprender</font>
-    </h1>
-  </header>
+		<h1 style="color:black;" class="rock">
+			<!-- <font face="Comic Sans">A.APRENDER</font> -->
+			<font size=7>A.Aprender</font>
+		</h1>
+	</header>
   <main>
-    <h2 style="color:black;">
-      <font face="Goudy Old Style">Cursos de Programación Web</font>
-    </h2>
-    <h2>¿Que quieres aprender hoy?</h2>
+    <h2 style="color:black;" class="rosario">
+			Cursos de Programación Web
+		</h2>
+		<h2 class="rosario"><br><br><font size=7>¿Qué quieres aprender hoy?</font></h2>
 
+		<br><br>
     <div class="flex">
       <div class="card2">
-        <img src="img/imgjs2.jpg" alt="imgjs.jpg">
-        <div>
-          <h2 style="margin-top: 0;">JavaScript desde cero<br><font size=4>Juan Camilo Arias<br>$ 54.000<br>Calificación: 4.5</font>
-          </h2>
+        <img src="img/imgjs2.jpg" alt="imgjs.jpg" width="auto" height="100">
+        <div class="details">
+          <h2 style="margin-top: 0;" class="rosario">JavaScript desde cero</h2>
+          <p class="roboto" style="margin-bottom: 15px;">Juan Camilo Arias</p>
+          <h2 class="price roboto">$ 54.000</h2>
+          <p style="color:gray" ;class="rosario">Calificación: 4.5</p>
+
+          <button>Ver detalles</button>
         </div>
       </div>
       <div class="cont-description">
         <h2 class="roboto">Descripción del curso</h2>
-        <p class="rosario">En este curso aprenderás a utilizar el lenguaje JavaScript desde las bases, veremos la sintaxis, los tipos de datos, como añadir lógica, manipulación del DOM, como realizar peticiones a un servidor de todas las formas que existen en la actualidad.</p>
+        <p class="roboto">En este curso aprenderás a utilizar el lenguaje JavaScript desde las bases, veremos la
+          sintaxis, los tipos de datos, como añadir lógica, manipulación del DOM, como realizar peticiones a un servidor
+          de todas las formas que existen en la actualidad.</p>
         <button>Comprar ahora</button>
       </div>
     </div>
-    <div>
-     <form action="">
-      <label for="name">Titular de la tarjeta</label>
-      <input id="name" type="text">
+    <div class="form-content flex">
+      <img src="" alt="">
+      <form action="">
+        <h2 class="rosario" style="margin-bottom: 25px;">Formulario de compra</h2>
+        <label for="name" class="roboto">Titular de la tarjeta</label>
+        <input id="name" type="text">
 
-      <label for="creditCardNumber">Número de la tarjeta</label>
-      <input id="creditCardNumber" type="tel" pattern="[0-9]*">
+        <label for="creditCardNumber" class="roboto">Número de la tarjeta</label>
+        <input id="creditCardNumber" type="tel" pattern="[0-9]*" placeholder="0000 0000 0000 0000">
 
-      <label for="expirationDate">Fecha de vencimiento</label>
-      <input type="date">
+        <label for="expirationDate" class="roboto">Fecha de vencimiento</label>
+        <input type="date">
 
-      <label for="">Código de seguridad</label>
-      <input type="tel" pattern="[0-9]*">
-     </form>
+        <label for="" class="roboto">Código de seguridad</label>
+        <input type="tel" pattern="[0-9]*">
+      </form>
     </div>
   </main>
-  <footer class="flex">
-    <p class="roboto" style="margin: 0;">© 2021. A.Aprender. Derechos reservados.</p>
-    <div>
-      <img src="img/youtube-icon.svg" alt="">
-      <img src="img/twitter.svg" alt="">
-      <img src="img/facebook.svg" alt="">
+  <footer>
+    <div class="cont-footer">
+      <p class="roboto" style="margin: 0;">© 2021. A.Aprender. Derechos reservados.</p>
+      <div>
+        <img src="img/youtube-icon.svg" alt="">
+        <img src="img/twitter.svg" alt="">
+        <img src="img/facebook.svg" alt="">
+      </div>
     </div>
   </footer>
-  <script src="script.js"></script>      
+  <script src="index.js"></script>
 </body>
-  
+
 </html>

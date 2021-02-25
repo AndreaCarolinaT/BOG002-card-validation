@@ -45,6 +45,7 @@ main {
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.13);
   text-align: center;
   background-color: white;
+  margin-bottom: 20px;
 }
 
 .card2 img {
@@ -69,8 +70,6 @@ main {
 }
 
 .flex div.card {
-  /* min-width: 300px;
-  max-width: 200px; */
   width: 300px;
 }
 
@@ -79,8 +78,12 @@ main {
 }
 
 .cont-description {
-  margin-left: 30px;
-  flex: 1 1 300px;
+  margin-left: 60px;
+  width: 450px;
+}
+
+.cont-description p {
+  line-height: 1.6;
 }
 
 .details {
@@ -98,10 +101,43 @@ button {
   background-color: rgb(125, 206, 206);
   border: none;
   margin-top: 20px;
+  /* La propiedad "cursor" hace que al pasar el mouse sobre el botón se vea la manito */
+  cursor: pointer;
 }
 
-label, iput {
+button:focus {
+  /* Esto quita el borde negro cuando se selecciona el botón */
+  outline: none;
+}
+
+label, input {
   display: block;
+}
+label {
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 4px;
+}
+input {
+  margin-bottom: 20px;
+  font-size: 16px;
+  padding: 6px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid #c4c4c4;
+  width: 200px;
+}
+input:focus {
+  outline: none;
+  border-color: lightsalmon;
+}
+.form-content {
+  background-color: white;
+  max-width: 600px;
+  margin: 0 auto;
+  border-radius: 15px;
+  padding: 15px;
 }
 
 footer {
@@ -117,7 +153,7 @@ footer div.cont-footer {
   display: flex;
   justify-content: space-between;
   padding-top: 20px;
-  margin-top: 60px;
+  margin-top: 30px;
   padding-bottom: 15px;
   position: relative
 }
