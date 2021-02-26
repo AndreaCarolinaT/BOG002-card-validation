@@ -6,16 +6,16 @@ sDButton.addEventListener("click", function () {
 })
 
 const sDButton2 = document.getElementById("seeDetailsButton2");
-sDButton.addEventListener("click", function () {
+sDButton2.addEventListener("click", function () {
  location.href = "detailsCourse2.html";
 })
 
 const sDButton3 = document.getElementById("seeDetailsButton3");
-sDButton.addEventListener("click", function () {
+sDButton3.addEventListener("click", function () {
  location.href = "detailsCourse3.html";
 })
 
 const sDButton4 = document.getElementById("seeDetailsButton4");
-sDButton.addEventListener("click", function () {
+sDButton4.addEventListener("click", function () {
  location.href = "detailsCourse4.html";
 })

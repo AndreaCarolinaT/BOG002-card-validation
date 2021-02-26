@@ -46,6 +46,13 @@ main {
   text-align: center;
   background-color: white;
   margin-bottom: 20px;
+  transition: all .25s ease-in;
+}
+
+.card2:hover {
+  box-shadow: -2px 8px 22px 0 rgb(0 0 0 / 15%);
+  transform: scale(1.02);
+  transition: all .25s ease-in;
 }
 
 .card2 img {
@@ -73,6 +80,7 @@ main {
   /* min-width: 300px;
   max-width: 200px; */
   width: 300px;
+  align-self: center;
 }
 
 .flex div.card div {
@@ -89,6 +97,11 @@ main {
   padding-bottom: 20px;
 }
 
+div#credit-cards img {
+  max-height: 25px;
+  margin-left: 5px;
+}
+
 .cont-description {
   margin-left: 25px;
 }
@@ -99,11 +112,8 @@ button {
   background-color: rgb(125, 206, 206);
   border: none;
   margin-top: 20px;
-  font-family: 'Roboto';
-  /* font-weight: 700; */
-  /* color: white; */
   font-size: 14px;
-  /* text-shadow: 1px 1px 2px #4b4b4b; */
+  font-family: 'Roboto';
   /* La propiedad "cursor" hace que al pasar el mouse sobre el botón se vea la manito */
   cursor: pointer;
 }
@@ -113,8 +123,47 @@ button:focus {
   outline: none;
 }
 
-label, iput {
+.form-content {
+  display: flex;
+  background-color: white;
+  max-width: 740px;
+  margin: 0 auto;
+  border-radius: 15px;
+  padding: 15px;
+}
+
+.form-content div {
+  width: 350px;
+  text-align: center;
+  align-self: center;
+}
+
+form button {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+label, input {
   display: block;
+}
+label {
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 4px;
+}
+input {
+  margin-bottom: 20px;
+  font-size: 16px;
+  padding: 6px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid #c4c4c4;
+  width: 300px;
+}
+input:focus {
+  outline: none;
+  border-color: lightsalmon;
 }
 
 footer {
