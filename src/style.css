@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Rosario:wght@300;400&display=swap');
 
 body {
-  background-color: lightsalmon
+  background-color: #ffa07a
 }
 
 h1 {
@@ -52,7 +52,7 @@ main {
 .card2:hover {
   box-shadow: -2px 8px 22px 0 rgb(0 0 0 / 15%);
   transform: scale(1.02);
-  transition: all .25s ease-in;
+  /*transition: all .25s ease-in;*/
 }
 
 .card2 img {
@@ -143,7 +143,7 @@ form button {
   margin-bottom: 10px;
 }
 
-label, input {
+label, input, select {
   display: block;
 }
 label {
@@ -151,7 +151,7 @@ label {
   font-weight: 400;
   margin-bottom: 4px;
 }
-input {
+input, select {
   margin-bottom: 20px;
   font-size: 16px;
   padding: 6px;
@@ -161,9 +161,10 @@ input {
   border-bottom: 1px solid #c4c4c4;
   width: 300px;
 }
-input:focus {
+
+input:focus, select:focus {
   outline: none;
-  border-color: lightsalmon;
+  border-color: rgb(255, 160, 122);
 }
 
 footer {

@@ -26,11 +26,12 @@
       <div class="card card2">
         <img src="img/css.jpg" alt="imgjs.jpg" width="300" height="150">
         <div class="details">
-          <h2 style="margin-top: 0;" class="rosario">Domina HTML desde cero</h2>
-          <p class="roboto" style="margin-bottom: 15px;">Astrid Campos</p>
-          <h2 class="price roboto">$ 50.000</h2>
+          <h2 style="margin-top: 0;" class="rosario">Curso CSS para principiantes</h2>
+          <p class="roboto" style="margin-bottom: 15px;">José Castro</p>
+          <h2 class="price roboto">$ 40.000</h2>
           <p style="color:gray;" class="rosario">Calificación: 4.7</p>
-          <button>Comprar ahora</button>
+          <button id="btnPay">Comprar ahora</button>
+          <button id="startCourse" style="display: none; text-align: center;">Empezar</button>
         </div>
       </div>
       <div class="cont-description">
@@ -45,7 +46,7 @@
           </p>
       </div>
     </div>
-    <br><div class="form-content" style="display:none;">
+    <br><div id="contentForm" class="form-content" style="display:none;">
       <div>
         <img src="img/tc.jpg" alt="">
         <div id="credit-cards" style="margin-top: 20px;">
@@ -55,21 +56,51 @@
           <img src="img/amex.svg" alt="">
         </div>
       </div>
-      <form action="">
+      <form id="formBuy" action="">
         <h2 class="rosario" style="margin-bottom: 25px;">Formulario de compra</h2>
         <label for="name" class="roboto">Titular de la tarjeta</label>
-        <input id="name" type="text">
+        <input id="name" type="text" required>
 
         <label for="creditCardNumber" class="roboto">Número de la tarjeta</label>
-        <input id="creditCardNumber" type="tel" pattern="[0-9]*" placeholder="0000 0000 0000 0000">
+        <input id="creditCardNumber" type="number" min="1" max="9999999999999999" placeholder="0000 0000 0000 0000" required>
 
         <label for="expirationDate" class="roboto">Fecha de vencimiento</label>
-        <input type="date">
 
-        <label for="" class="roboto">Código de seguridad</label>
-        <input type="tel" pattern="[0-9]*">
+        <label for="month" class="roboto">Mes de vencimiento</label>
+        <select name="month" id="month" required>
+          <option value="">Selecciona el mes</option>
+          <option value="Enero">Enero</option>
+          <option value="Febrero">Febrero</option>
+          <option value="Marzo">Marzo</option>
+          <option value="Abril">Abril</option>
+          <option value="Mayo">Mayo</option>
+          <option value="Junio">Junio</option>
+          <option value="Julio">Julio</option>
+          <option value="Agosto">Agosto</option>
+          <option value="Septiembre">Septiembre</option>
+          <option value="Octubre">Octubre</option>
+          <option value="Noviembre">Noviembre</option>
+          <option value="Diciembre">Diciembre</option>
+        </select>
 
-        <button type="submit">Aceptar compra</button>
+        <label for="year" class="roboto">Año de vencimiento</label>
+        <select name="year" id="year" required>
+          <option value="">Selecciona el año</option>
+          <option value="2021">2021</option>
+          <option value="2022">2022</option>
+          <option value="2023">2023</option>
+          <option value="2024">2024</option>
+          <option value="2025">2025</option>
+          <option value="2026">2026</option>
+          <option value="2027">2027</option>
+          <option value="2028">2028</option>
+          <option value="2029">2029</option>
+        </select>
+
+        <label for="code" class="roboto">Código de seguridad</label>
+        <input id="code" type="number" min="1" max="9999" required>
+
+        <button id="acceptPurchase" type="submit">Aceptar compra</button>
       </form>
     </div>
   </main>
