@@ -1,9 +1,9 @@
-# Tarjeta de crédito válida
+# A.Aprender
 
 ## Índice
 
-* [1. Preámbulo](#1-preámbulo)
-* [2. Resumen del proyecto](#2-resumen-del-proyecto)
+* [1. Resumen del proyecto](#1-resumen-del-proyecto)
+* [2. Investigación UX](#2-investigacion-ux)
 * [3. Objetivos de aprendizaje](#3-objetivos-de-aprendizaje)
 * [4. Consideraciones generales](#4-consideraciones-generales)
 * [5. Criterios de aceptación mínimos del proyecto](#5-criterios-de-aceptación-mínimos-del-proyecto)
@@ -11,38 +11,19 @@
 
 ***
 
-## 1. Preámbulo
+## 1. Resumen del proyecto
+A.Aprender es una plataforma web donde podrás encontrar los cursos que son fundamentales para dar incio a tu carrera como desarrollador web.
 
-El [algoritmo de Luhn](https://es.wikipedia.org/wiki/Algoritmo_de_Luhn),
-también llamado algoritmo de módulo 10, es un método de suma de verificación,
-se utiliza para validar números de identificación; tales como el IMEI de los
-celulares, tarjetas de crédito, etc.
+## 2. Investigación UX
+### 2.1 A quién va dirigido
+Dirigido a personas sin distinción de edad que quieran adquirir habilidades en programación sin requerir de conocimientos previos   
 
-Este algoritmo es simple. Obtenemos la reversa del número a verificar (que
-solamente contiene dígitos [0-9]); a todos los números que ocupan una posición
-par se les debe multiplicar por dos, si este número es mayor o igual a 10,
-debemos sumar los dígitos del resultado; el número a verificar será válido si
-la suma de sus dígitos finales es un múltiplo de 10.
+### 2.2 Cómo soluciona los problemas/necesidades del usuario
+Los cursos aquí presentados cuentan con precios cómodos con un módulo de pago fácil, rápido y seguro. Son cursos pensados en los usuarios que por falsos comentarios acerca del mundo de la programación no se han atrevido a iniciar su proceso de formación
 
-![gráfica de algoritmo de Luhn](https://www.101computing.net/wp/wp-content/uploads/Luhn-Algorithm.png)
-
-## 2. Resumen del proyecto
-
-En este proyecto tendrás que construir una aplicación web que le permita a un
-usuario validar el número de una tarjeta de crédito. Además, tendrás que
-implementar funcionalidad para ocultar todos los dígitos de una tarjeta menos
-los últimos cuatro.
-
-La temática es libre. Tú debes pensar en qué situaciones de la vida real se
-necesitaría validar una tarjeta de crédito y pensar en cómo debe ser esa
-experiencia de uso (qué pantallas, explicaciones, mensajes, colores, ¿marca?)
-etc.
+### 2.3 Primer prototipo
 
 ## 3. Objetivos de aprendizaje
-
-Trabajando en parejas aprenderán a construir una aplicación web que interactuará
-con lx usuarix final a través del navegador, utilizando HTML, CSS y JavaScript
-como tecnologías.
 
 ### HTML y CSS
 

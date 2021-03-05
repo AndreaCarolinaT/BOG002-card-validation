@@ -39,16 +39,18 @@ const validator = {
 
     // Pasar los números a un array
     let arrDigits = creditCardNumber.split("");
+    let arrDigitsReversed = arrDigits.reverse();
     // console.log(arrDigits);
-    let arrResult = [];
+    let arrResultReversed = [];
     for (let i = 0; i < arrDigits.length; i++) {
-      if (i < 12) {
-        arrResult.push("#")
+      if (i > 3) {
+        arrResultReversed.push("#")
       }
       else {
-        arrResult.push(arrDigits[i])
+        arrResultReversed.push(arrDigitsReversed[i])
       }
     }
+    let arrResult = arrResultReversed.reverse();
     // Unir números del arreglo
     let hideCreditCard = arrResult.join("");
     return hideCreditCard;
