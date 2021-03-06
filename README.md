@@ -5,11 +5,14 @@
 * [1. Resumen del proyecto](#1-resumen-del-proyecto)
 * [2. Investigación UX](#2-investigacion-ux)
 * [3. Objetivos de aprendizaje](#3-objetivos-de-aprendizaje)
-
+* [4. Herramientas de elaboración del proyecto](#4-heramientas-de-elaboración-del-proyecto) 
+* [5. Autores](#5-autores)
 ***
 
 ## 1. Resumen del proyecto
 A.Aprender es una plataforma web donde podrás encontrar los cursos que son fundamentales para dar incio a tu carrera como desarrollador web.
+
+Enlace al proyecto https://andreacarolinat.github.io/BOG002-card-validation/<br><br>
 
 <img src="./src/img/vista1 proyecto creditcard.PNG">
 <img src="./src/img/vista2 proyecto creditcard.PNG">
@@ -46,6 +49,7 @@ A.Aprender es una plataforma web donde podrás encontrar los cursos que son fund
 <br><img src="./src/img/Frame 1.png">
 <img src="./src/img/Frame 2.png">
 <img src="./src/img/Frame 3.png">
+***
 
 ## 3. Objetivos de aprendizaje
 <br>
@@ -84,11 +88,18 @@ A.Aprender es una plataforma web donde podrás encontrar los cursos que son fund
 ### Git y GitHub
 
 * [x ] Uso de comandos de git (add | commit | pull | status | push)
-* [ ] Manejo de repositorios de GitHub (clone | fork | gh-pages)
+* [x ] Manejo de repositorios de GitHub (clone | fork | gh-pages)
 
 ### UX
 
 * [x ] Diseñar la aplicación pensando y entendiendo al usuario.
 * [x ] Crear prototipos para obtener feedback e iterar.
 * [x ] Aplicar los principios de diseño visual (contraste, alineación, jerarquía)
-
+***
+## 4. Herramientas de elaboración del proyecto
+El proyecto fue elaborado con las herramientas HTML,JavaScript y CSS
+<br><br>
+***
+## 5. Autores
+* Andrea Carolina Tamara<br> 
+* Andrea Peñaranda Ortega
