@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>A.Aprender</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <header>
+		<h1 id="logo" style="color:black;" class="rock">
+			<!-- <font face="Comic Sans">A.APRENDER</font> -->
+			<font size="7">A.Aprender</font>
+		</h1>
+	</header>
+  <main>
+    <h2 style="color:black;" class="rosario">
+			Cursos de Programación Web
+		</h2>
+		<!-- <h2 class="rosario"><br><br><font size="7">¿Qué quieres aprender hoy?</font></h2> -->
+
+		<br><br>
+    <div class="flex">
+      <div class="card card2">
+        <img src="img/imgjs2.jpg" alt="imgjs.jpg" width="auto" height="100">
+        <div class="details">
+          <h2 style="margin-top: 0;" class="rosario">JavaScript desde cero</h2>
+          <p class="roboto" style="margin-bottom: 15px;">Juan Camilo Arias</p>
+          <h2 class="price roboto">$ 54.000</h2>
+          <p style="color:gray;" class="rosario">Calificación: 4.5</p>
+          <button id="btnPay">Comprar ahora</button>
+          <button id="startCourse" style="display: none; text-align: center;">Empezar</button>
+        </div>
+      </div>
+      <div class="cont-description">
+        <h2 class="roboto" style="margin-top: 0;">Descripción del curso</h2>
+        <p class="roboto">En este curso aprenderás a utilizar el lenguaje JavaScript desde las bases, veremos la
+          sintaxis, los tipos de datos, como añadir lógica, manipulación del DOM, como realizar peticiones a un servidor
+          de todas las formas que existen en la actualidad.
+          <br><br>&#10004; Estarás listo para crear páginas que interactúen con los usuarios que la visitan
+          <br><br>&#10004; Aprenderás a desarrollar aplicaciones haciendo uso de Javascript
+          <br><br>&#10004; No volverás a confundir Javascript con algún otro lenguaje de programación
+          <br><br>&#10004; Tendrás una sólida base para profundizar en temas más complejos
+          </p>
+      </div>
+    </div>
+    <br><div id="contentForm" class="form-content" style="display:none;">
+      <div>
+        <img src="img/tc.jpg" alt="">
+        <div id="credit-cards" style="margin-top: 20px;">
+          <img src="img/mastercard.svg" alt="">
+          <img src="img/visa.svg" alt="">
+          <img src="img/dinersclub.svg" alt="">
+          <img src="img/amex.svg" alt="">
+        </div>
+      </div>
+      <form action="">
+        <h2 class="rosario" style="margin-bottom: 25px;">Formulario de compra</h2>
+        <label for="name" class="roboto">Titular de la tarjeta</label>
+        <input id="name" type="text" required>
+
+        <label for="creditCardNumber" class="roboto">Número de la tarjeta</label>
+        <input id="creditCardNumber" type="number" min="1" max= "9999999999999999" placeholder="0000 0000 0000 0000" required>
+
+        <label for="expirationDate" class="roboto">Fecha de vencimiento</label>
+
+        <label for="month" class="roboto">Mes de vencimiento</label>
+        <select name="month" id="month" required>
+          <option value="">Selecciona el mes</option>
+          <option value="Enero">Enero</option>
+          <option value="Febrero">Febrero</option>
+          <option value="Marzo">Marzo</option>
+          <option value="Abril">Abril</option>
+          <option value="Mayo">Mayo</option>
+          <option value="Junio">Junio</option>
+          <option value="Julio">Julio</option>
+          <option value="Agosto">Agosto</option>
+          <option value="Septiembre">Septiembre</option>
+          <option value="Octubre">Octubre</option>
+          <option value="Noviembre">Noviembre</option>
+          <option value="Diciembre">Diciembre</option>
+        </select>
+
+        <label for="year" class="roboto">Año de vencimiento</label>
+        <select name="year" id="year" required>
+          <option value="">Selecciona el año</option>
+          <option value="2021">2021</option>
+          <option value="2022">2022</option>
+          <option value="2023">2023</option>
+          <option value="2024">2024</option>
+          <option value="2025">2025</option>
+          <option value="2026">2026</option>
+          <option value="2027">2027</option>
+          <option value="2028">2028</option>
+          <option value="2029">2029</option>
+        </select>
+
+        <label for="code" class="roboto">Código de seguridad</label>
+        <input id="code" type="number" min="1" max="9999" required>
+
+        <button id="acceptPurchase" type="submit">Aceptar compra</button>
+      </form>
+    </div>
+  </main>
+  <footer>
+    <div class="cont-footer">
+      <p class="roboto" style="margin: 0;">© 2021. A.Aprender. Derechos reservados.</p>
+      <div>
+        <img src="img/youtube-icon.svg" alt="">
+        <img src="img/twitter.svg" alt="">
+        <img src="img/facebook.svg" alt="">
+      </div>
+    </div>
+  </footer>
+  <script src="index.js" type="module"></script>
+</body>
+
+</html>
